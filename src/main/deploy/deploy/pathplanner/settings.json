@@ -3,9 +3,12 @@
   "robotLength": 0.9,
   "holonomicMode": true,
   "pathFolders": [
-    "Mid_Start",
-    "Bot_Start",
-    "Top_Start"
+    "Bot_Start_Blue",
+    "Mid_Start_Blue",
+    "Mid_Start_Red",
+    "Top_Start_Red",
+    "Bot_Start_Red",
+    "Top_Start_Blue"
   ],
   "autoFolders": [],
   "defaultMaxVel": 3.0,
