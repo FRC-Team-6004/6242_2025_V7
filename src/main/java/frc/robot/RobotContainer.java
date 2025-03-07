@@ -22,6 +22,7 @@ import frc.robot.commands.CorAlIn;
 import frc.robot.commands.CorAlOut;
 import frc.robot.commands.PivotIn;
 import frc.robot.commands.PivotOut;
+import frc.robot.commands.Autos.CorAlOutAuto;
 import frc.robot.generated.TunerConstants;
 import frc.robot.subsystems.ClimbSub;
 import frc.robot.subsystems.CommandSwerveDrivetrain;
@@ -60,6 +61,9 @@ public class RobotContainer {
    
 
     public RobotContainer() {
+        // Register Named Commands
+        NamedCommands.registerCommand("GrabOut", new CorAlOutAuto(coralSubsytem));
+
         autoChooser = AutoBuilder.buildAutoChooser("Tests");
         SmartDashboard.putData("Auto Mode", autoChooser);
         SmartDashboard.putData(CommandScheduler.getInstance());
