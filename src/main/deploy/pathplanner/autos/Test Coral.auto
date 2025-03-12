@@ -21,6 +21,30 @@
           "data": {
             "name": "GrabOut"
           }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "GH-Right_Intake"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.5
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Intake-Reef_CD"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "GrabOut"
+          }
         }
       ]
     }

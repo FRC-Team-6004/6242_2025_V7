@@ -3,25 +3,41 @@
   "waypoints": [
     {
       "anchor": {
-        "x": 7.570334507042254,
-        "y": 5.045422535211267
+        "x": 0.6541373239436605,
+        "y": 0.5952464788732379
       },
       "prevControl": null,
       "nextControl": {
-        "x": 6.566224315068493,
-        "y": 3.942358732876712
+        "x": 0.7994468723734349,
+        "y": 0.7986798466749213
       },
       "isLocked": false,
-      "linkedName": "Bot_Start"
+      "linkedName": null
     },
     {
       "anchor": {
-        "x": 5.439297945205479,
-        "y": 4.002461472602739
+        "x": 1.9296654929577455,
+        "y": 2.140052816901407
       },
       "prevControl": {
-        "x": 5.033604452054794,
-        "y": 4.002461472602739
+        "x": 1.2894783359969797,
+        "y": 1.6057219151140807
+      },
+      "nextControl": {
+        "x": 2.569852649918511,
+        "y": 2.6743837186887327
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 3.587852112676056,
+        "y": 3.2313380281690134
+      },
+      "prevControl": {
+        "x": 3.3327464788732386,
+        "y": 2.905369718309858
       },
       "nextControl": null,
       "isLocked": false,
@@ -42,13 +58,13 @@
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": -179.61785501929168
+    "rotation": 57.652556500557964
   },
   "reversed": false,
-  "folder": "Bot_Start_Blue",
+  "folder": "Right_Intake_start",
   "idealStartingState": {
     "velocity": 0,
-    "rotation": 180.0
+    "rotation": -131.90594194108286
   },
   "useDefaultConstraints": true
 }
